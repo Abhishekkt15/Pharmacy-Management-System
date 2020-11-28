@@ -1,26 +1,28 @@
 # Pharmacy Management System
 Installation Steps(Configuration)
 1. Download and Unzip file on your local system.
-2. Put pms folder inside root directory
+2. Put Pharmacy-Management-System folder inside root directory
 
 Database Configuration
 
 Open phpmyadmin
-Create Database tms
+Create Database pms
 Import database pms.sql
-Open Your browser put inside browser “http://localhost/tms”
+
+Login and Password Details of Pharmacy-Management-System
+
 Login Details for admin : 
+      Username: admin
+      Password: admin
 
-Open Your browser put inside browser “http://localhost/tms/admin”
+Login Details for pharmacist :
+      Username: abhi
+      password: abhi
 
-Username : admin
-
-Password : Test@123
-
-Login Details for user: 
-
-Open Your browser put inside browser “http://localhost/tms/”
-
-Username : anuj@gmail.com
-
-Password : Test@123
+Login Details for manager :
+      Username: vinay
+      password: vinay
+      
+Login Details for cashier :
+      Username: abc
+      password: abc
