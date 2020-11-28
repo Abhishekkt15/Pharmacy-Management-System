@@ -1,0 +1,653 @@
+
+
+a:focus {
+	outline: 1px dotted invert;
+	}
+
+
+ol {
+	list-style: decimal;
+	list-style-position: inside;
+}
+
+ul.bullets {
+	list-style: disc;
+	list-style-position: inside;
+	}
+
+ul.bullets li {
+	margin-left: 20px;
+	margin-bottom: 5px;
+	}
+
+a, 
+a:visited { 
+	color:#0063be; text-decoration: none; 
+	}
+
+a:hover, a:active { 
+	text-decoration: underline; 
+	}
+
+h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, h5 a, h5 a:visited, h6 a, h6 a:visited { 
+	color: #444444; 
+	}
+
+h1 a:hover, h1 a:active, h2 a:hover, h2 a:active, h3 a:hover, h3 a:active, h4 a:hover, h4 a:active, h5 a:hover, h5 a:active, h6 a:hover, h6 a:active { 
+	color:#0063be; 
+	}
+
+
+
+
+/* --------------------  Custom general classes -------------------- */
+
+.align-left    { text-align: left; }
+	
+.align-right   { text-align: right; }
+	
+.align-center  { text-align: center; }
+	
+.align-justify { text-align: justify; }
+	
+.float-left    { float: left; }
+	
+.float-right   { float: right; }
+
+.bottom-spacing { margin-bottom: 20px; }
+
+
+
+
+/* -------------------- Page elements -------------------- */
+
+
+
+
+#header-status {
+	background: #000000; 
+	padding: 0; 
+	color: #aaaaaa;
+	}
+	
+#text-invitation {
+	display: block; 
+	float: left; 
+	padding: 9px 0 11px 0;
+	}
+
+#message-notification {
+	display: block; 
+	float: left; 
+	background: url(mail-q-bg.jpg) top left no-repeat; 
+	color: #6dc6e7; 
+	padding: 9px 0 11px 0; 
+	text-decoration: none; 
+	margin-left: 10px;
+	}
+	
+#message-notification span { 
+	color: #444444; 
+	margin-right: 15px; 
+	text-align: center; 
+	display: block; 
+	float: left; 
+	width: 32px; 
+	}
+	
+#message-notification a:hover, 
+#message-notification a:active { 
+	color: #ffffff; 
+	}
+	
+a#logout, 
+a#logout:visited { 
+	display: block; 
+	float: right; 
+	background: url(icon-logout.gif) center right no-repeat; 
+	color: #6dc6e7; 
+	padding: 9px 20px 11px 0px; 
+	text-decoration: none; 
+	}
+	
+a#logout:hover, 
+a#logout:active { 
+	color: #ffffff; 
+	}
+	
+#header-main { 
+	background: #005195 url(header-bg.jpg) repeat-x top left;
+	height: 94px;
+	}
+	
+#header-main #logo { 
+	background: url(logo.gif) no-repeat left 10px; 
+	width: 100%; 
+	height: 70px; 
+	}
+	
+#subnav {
+	background: #ffffff url(submenu-bg.gif) repeat-x bottom left;
+		height: 48px;
+	}
+	
+#subnav ul { 
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	}
+	
+#subnav ul li { 
+	float: left; 
+	margin: 0 18px 0 0; 
+	padding: 0;
+	}
+	
+#subnav ul a, 
+#subnav ul a:visited { 
+	display:block;
+	float: left;
+	color:#0063be; 
+	font-size: 14px; 
+	padding: 9px 0 0 0;
+	text-decoration: none; 
+	}
+	
+#subnav ul a:hover, 
+#subnav ul a:active { 
+	text-decoration: underline; 
+	}
+
+
+ul#nav { 
+	float: left; 
+	margin-top: 60px; 
+	list-style: none; 
+	font-size:14px; 
+	margin-bottom: 0;
+	
+	}
+
+ul#nav li {
+	background:transparent url(tab-left.gif) no-repeat scroll left top;
+	float:left;
+	margin:0 5px 0 0;
+	padding:0 0 0 9px;
+	}
+
+ul#nav li a, ul#nav li a:visited {
+	background:transparent url(tab-right.gif) no-repeat scroll right top;
+	color:#FFFFFF;
+	display:block;
+	float:left;
+	padding:7px 15px 6px 6px;
+	text-decoration:none;
+	}
+
+ul#nav li a:hover {
+	padding:8px 15px 5px 6px;
+	}
+
+ul#nav li#current { /* give the id="current" to the currently selected tab */
+	background:transparent url(tab-active-left.gif) no-repeat scroll left top;
+	}
+
+ul#nav li#current a {
+	background:transparent url(tab-active-right.gif) no-repeat scroll right top;
+	color:#444444;
+	}
+
+
+
+
+/* -------------------- Box module -------------------- */
+
+div.module { 
+	background: url(module-body-left-bg.gif) no-repeat scroll bottom left; 
+	float: left; 
+	width: 100%; 
+	margin-bottom: 20px; 
+	}
+
+div.module div.module-body { 
+	background: url(module-body-right-bg.gif) no-repeat scroll bottom right; 
+	padding: 20px 3% 20px 3%; float: left; width: 94%;
+	}
+
+/* Percentage padding in the module dependant on the cell width */
+.grid_1 div.module div.module-body  { padding: 20px 8% 20px 8%; float: left; width: 84%; }
+.grid_2 div.module div.module-body  { padding: 20px 7% 20px 7%; float: left; width: 86%; }
+.grid_3 div.module div.module-body  { padding: 20px 6% 20px 6%; float: left; width: 88%; }
+.grid_4 div.module div.module-body  { padding: 20px 5% 20px 5%; float: left; width: 90%; }
+.grid_5 div.module div.module-body  { padding: 20px 4% 20px 4%; float: left; width: 92%; }
+.grid_6 div.module div.module-body  { padding: 20px 3% 20px 3%; float: left; width: 94%; }
+.grid_7 div.module div.module-body  { padding: 20px 2.75% 20px  2.75%; float: left; width: 94.5%; }
+.grid_8 div.module div.module-body  { padding: 20px 2.5% 20px 2.5%; float: left; width: 95%; }
+.grid_9 div.module div.module-body  { padding: 20px 2.25% 20px 2.25%; float: left; width: 95.5%; }
+.grid_10 div.module div.module-body { padding: 20px 2% 20px 2%; float: left; width: 96%; }
+.grid_11 div.module div.module-body { padding: 20px 1.75% 20px 1.75%; float: left; width: 96.5%; }
+.grid_12 div.module div.module-body { padding: 20px 1.5% 20px 1.5%; float: left; width: 97%; }
+
+
+	
+div.module div.module-table-body { 
+	background: url(module-body-right-bg.gif) no-repeat scroll bottom right; 
+	padding: 0; 
+	float: left; 
+	width: 100%; 
+	}
+
+div.module h2 { 
+    /* Sliding right image */
+    background: url(module-header-left-bg.gif) no-repeat scroll top left; 
+	display: block;
+	float: left;
+	height: 32px; /* CHANGE THIS VALUE ACCORDING TO IMAGE HEIGHT */
+	margin-right: 0px;
+	padding-right: 0px; /* CHENGE THIS VALUE ACCORDING TO RIGHT IMAGE WIDTH */
+	/* FONT PROPERTIES */
+	text-decoration: none;
+	color: #444444;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	width: 100%;
+	margin-bottom: 0;
+	letter-spacing: normal
+	}
+
+div.module h2 span { 
+	/* Background left image */ 
+	background: url(module-header-right-bg.gif) no-repeat top right; 
+	display: block;
+	line-height: 20px; /* CHANGE THIS VALUE ACCORDING TO BUTTONG HEIGHT */
+	padding: 7px 0 5px 18px;
+
+	}
+
+div.module table {
+	width: 100%; 
+	margin: 0 0 10px 0;
+	border-left: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+	}
+
+div.module table.tr {
+	border-collapse: separate;
+	border-right: 1px solid #aaaaaa;
+	border-left: 1px solid #aaaaaa;
+	}
+
+div.module table th {
+	background-color: #eeeeee;
+	color: #444444;
+	padding: 5px;
+	text-align: left;
+	border-right: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+	}
+	
+div.module table td {
+	background-color: #ffffff;
+	padding: 5px;;
+	border-right: 1px solid #d9d9d9;
+	}
+
+div.module table tr.odd td { /* You can use this style if you want to do zebra-colored tables with other technique than Table Sorter script used here */
+	background-color: #f1f5fa;
+	}
+	
+.table-apply {
+	width: 40%; float: right; text-align: right; margin-right: 10px;
+	}
+
+
+
+
+/* -------------------- Pager -------------------- */
+.pager {
+	display: block; padding: 0px 10px 10px 10px;  width: 40%; float: left; 
+	}
+
+.pager .first,
+.pager .prev,
+.pager .next,
+.pager .last {
+	margin-bottom: -2px;
+	}
+
+
+
+
+
+/* -------------------- Button (sliding door technique) -------------------- */
+
+/* button outside a module box */
+a.button {
+    /* Sliding right image */
+    background: transparent url(button-right-bg-m.gif) no-repeat scroll top right; 
+	display: block;
+	float: left;
+	height: 26px; /* CHANGE THIS VALUE ACCORDING TO IMAGE HEIGHT */
+	padding-right: 11px; /* CHENGE THIS VALUE ACCORDING TO RIGHT IMAGE WIDTH */
+	/* FONT PROPERTIES */
+	text-decoration: none;
+	color: #444444;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	}
+	
+a.button span {
+	/* Background left image */ 
+	background: transparent url(button-left-bg-m.gif) no-repeat top left; 
+	display: block;
+	line-height: 15px; /* CHANGE THIS VALUE ACCORDING TO BUTTONG HEIGHT */
+	padding: 4px 0 7px 10px;
+	}
+
+a.button:hover { 
+	background-position: bottom right; color:#0063be; 
+	}
+
+a.button:hover span{
+	background-position: bottom left;
+	color:#0063be;
+	}
+
+/* button inside a module box */
+div.module a.button {
+    /* Sliding right image */
+    background: transparent url(button-right-bg.gif) no-repeat scroll top right; 
+	display: block;
+	float: left;
+	height: 26px; /* CHANGE THIS VALUE ACCORDING TO IMAGE HEIGHT */
+	padding-right: 11px; /* CHENGE THIS VALUE ACCORDING TO RIGHT IMAGE WIDTH */
+	/* FONT PROPERTIES */
+	text-decoration: none;
+	color: #444444;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	}
+	
+div.module a.button span {
+	background: transparent url(button-left-bg.gif) no-repeat top left; 
+	display: block;
+	line-height: 15px; /* CHANGE THIS VALUE ACCORDING TO BUTTONG HEIGHT */
+	padding: 4px 0 7px 10px;
+	}
+
+
+
+/* -------------------- Pagination -------------------- */
+
+.pagination { margin-bottom: 20px; float: right;  }
+.pagination a.button { margin-right: 10px; }
+.pagination a.last { margin-right: 0; }
+.pagination .numbers { float: left; padding-top: 3px; margin-right: 15px; }
+.pagination .numbers span { padding: 0 5px 0 5px; } 
+.pagination .current { font-weight: bold; }
+
+
+
+
+/* -------------------- Forms -------------------- */
+
+fieldset {
+	margin-top: 15px; 
+	margin-bottom: 15px; 
+	}
+	
+legend {
+	margin-bottom: 10px; 
+	display: block; 
+	}
+	
+label { 
+	display: block; 
+	margin-bottom: 5px; 
+	}
+	
+.input-short,
+.input-medium,
+.input-long { 
+	padding: 3px; 
+	}
+	
+select { 
+	padding: 2px; 
+	}
+	
+textarea { 
+	padding: 3px; 
+	}
+	
+.input-short { 
+	width: 25% 
+	}
+	
+.input-medium { 
+	width: 50% 
+	}
+	
+.input-long { 
+	width: 75% 
+	}
+	
+input.input-short,
+input.input-medium,
+input.input-long, 
+select, 
+textarea {
+	background: url(input-bg.gif) top left repeat-x #f6f6f6;
+	border: 0;
+	border: 1px solid #cccccc;
+	}
+
+input.input-short:focus,
+input.input-medium:focus,
+input.input-long:focus, 
+select:focus, 
+textarea:focus {
+	background: url(input-bg-focus.gif) top left repeat-x #ffffff;
+	border-color: #a9c2d1;
+	}
+
+
+input.submit-green { 
+	background: url(submit-green-bg.gif) top left repeat-x; 
+	border: 0; 
+	border-top: 1px solid #6bd091; 
+	border-left: 1px solid #6bd091; 
+	border-right: 1px solid #349c5c; 
+	border-bottom: 1px solid #349c5c; 
+	color: #ffffff; 
+	font-size: 14px; 
+	padding: 2px 12px; 
+	margin: 0px 10px 0 0;
+	cursor: pointer;
+	}
+
+input.submit-green-hover { 
+	background-image: url(submit-green-bg-hover.gif);
+	}
+
+input.submit-gray { 
+	background: url(submit-gray-bg.gif) top left repeat-x; 
+	border: 0; 
+	border-top: 1px solid #cccccc; 
+	border-left: 1px solid #cccccc; 
+	border-right: 1px solid #888888; 
+	border-bottom: 1px solid #888888; 
+	color: #ffffff; 
+	font-size: 14px; 
+	padding: 2px 12px; 
+	margin: 0px 10px 0 0;
+	cursor: pointer;
+	}
+
+input.submit-gray-hover { 
+	background-image: url(submit-gray-bg-hover.gif); 
+	}
+
+
+
+
+/* -------------------- Text input and select input notifications -------------------- */
+
+.notification-input {
+	background:10px 50% no-repeat;
+	margin: 0 0 0 5px;
+	padding:5px 0 5px 32px;
+	font-size: 12px;
+	}
+
+.ni-correct {
+	background-image:url(tick-on-white.gif);
+	color: #00ae42;
+	}
+
+.ni-error {
+	background-image:url(cross-on-white.gif);
+	color: #c9282d;
+	}
+
+
+
+
+/* --------------------  Boxed notifications -------------------- */
+
+.notification {
+	display: block;
+	padding: 20px 20px 20px 45px;
+	border: 1px solid;
+	margin-bottom: 20px;
+	background-repeat: no-repeat;
+	background-position: 20px 20px;
+	}
+
+.n-success {
+	background-color: #a3e6bd;
+	border-color: #68d59b;
+	background-image: url(notification-tick.gif);
+	}
+
+.n-information {
+	background-color: #9fddea;
+	border-color: #5fceea;
+	background-image: url(notification-information.gif);
+	}
+
+.n-attention {
+	background-color: #f9e497;
+	border-color: #ffcb4f;
+	background-image: url(notification-exclamation.gif);
+	}
+
+.n-error {
+	background-color: #ffc6ca;
+	border-color: #efb9c3;
+	background-image: url(notification-slash.gif);
+	}
+
+/* -------------------- Indicators -------------------- */
+
+
+.indicator {
+	width: 220px;
+	height: 12px;
+	background: url(indicator-bg.gif) no-repeat top left;
+	}
+
+.indicator div {
+	height: 12px;
+	background: url(indicator-green-to-red.gif) no-repeat top left;
+	}
+
+.indicator div.reverse {
+	background: url(indicator-red-to-green.gif) no-repeat top left;
+	}
+
+
+
+
+/* -------------------- Category list -------------------- */
+
+a.removable, 
+a.removable:visited {
+	padding: 5px 18px 5px 0px;
+	}
+
+a.removable:hover, 
+a.removable:active {
+	background: url(cross-small.gif) no-repeat center right;
+	}
+
+
+
+
+/* -------------------- To-do list -------------------- */
+
+a.checkable, 
+a.checkable:visited {
+	padding: 5px 18px 5px 0px;
+	}
+
+a.checkable:hover, 
+a.checkable:active {
+	background: url(tick-small.gif) no-repeat center right;
+	}
+	
+a.completed, 
+a.completed:visited {
+	color: #aaaaaa;
+	}
+
+
+
+
+/* -------------------- Messages -------------------- */
+.separated { 
+	border-top: 1px solid #cccccc; 
+	padding-top: 15px; 
+	}
+	
+.user { 
+	display: block; 
+	padding-left: 22px; 
+	background: url(user.gif) left 50% no-repeat; 
+	font-size: 14px; color: #666666; 
+	font-weight: normal;  
+	}
+	
+
+
+/* -------------------- Dashboard -------------------- */
+
+a.dashboard-module, 
+a.dashboard-module:visited { 
+	width: 142px; 
+	height: 142px; 
+	display: block; 
+	float: left; 
+	background: url(dashboard-module.gif) top left no-repeat; 
+	margin: 0 8px 8px 0;  
+	text-align: center; 
+	color: #444444; 
+	}
+	
+a.dashboard-module:hover, 
+a.dashboard-module:active { 
+	background-position: bottom left; 
+	text-decoration: none; 
+	color:#0063be; 
+	}
+
+a.dashboard-module img { 
+	margin-top: 20px; 
+	}
+	
+a.dashboard-module span { 
+	margin-top: 10px; 
+	display: block; 
+	}
