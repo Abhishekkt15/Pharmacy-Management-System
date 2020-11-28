@@ -1,0 +1,216 @@
+
+#header{
+	width:100%;
+	margin:0;	
+	padding:0;
+	color: white;
+	height: 20%;
+	background-color: #A2A0A0;
+}
+#center{
+	margin-top: 5px;
+	float: left;
+    text-align: center;
+    z-index: -1;
+
+}
+#login{
+	margin-top: 5px;
+	float: right;
+}
+#admin{
+    opacity: 0.5;
+    filter: alpha(opacity=40);
+	background-image:url(home_page/images/icon5.jpeg);
+	float: right;
+	border-radius: 0px 10px 0px 10px;
+	height: 80%;
+	background-color: #A2A0A0;
+	text-align: center;
+}
+#principal{
+	opacity: 0.5;
+    filter: alpha(opacity=40);
+    background-image:url(home_page/images/icon5.jpeg);
+    float: right;
+	border-radius: 0px 10px 0px 10px;
+	height: 76%;
+	background-color: #A2A0A0;
+	text-align: center;
+
+
+	}
+#hod{
+	opacity: 0.5;
+    filter: alpha(opacity=40);
+	float: right;
+	background-image:url(home_page/images/icon5.jpeg);
+		border-radius: 0px 10px 0px 10px;
+	height:76%;
+    background-color: #A2A0A0;
+	text-align: center;
+
+}
+
+#teach{
+	opacity: 0.5;
+    filter: alpha(opacity=40);
+	float: right;
+	background-image:url(home_page/images/icon5.jpeg);
+	border-radius: 0px 10px 0px 10px;
+	height: 76%;
+    background-color: #A2A0A0;
+	text-align: center;
+	
+
+}
+#stud{
+	opacity: 0.5;
+    filter: alpha(opacity=40);
+	background-image:url(home_page/images/icon5.jpeg);
+	float: right;
+	border-radius: 0px 10px 0px 10px;;
+	height: 76%;
+	    background-color: #A2A0A0;
+	text-align: center;
+
+}
+#btm{
+	margin-top: 385px;
+	background-color:#2E2E2E;
+	height: 30%;
+	color: ;
+	width: 100%;
+
+}
+p
+{ margin-top: 10px;
+	color: white;
+	font-size:18;
+}
+
+#down2 {
+	height: 5%;
+	background-color:#3C3C3C ;
+	width:100%;
+	text-align: center;
+	color: white;
+	font-size: 15;
+}
+
+#admin:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=100);
+}
+#principal:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=100);
+}
+#hod:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=100);
+}
+#teach:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=100);
+}
+#stud:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=100);
+}
+
+
+#admin p a:hover {
+	color:#3C3C3C ;
+}
+#principal p a:hover{
+    color:#3C3C3C ;
+}
+#hod p a:hover {
+    color:#3C3C3C ;
+}
+#teach p a:hover {
+    color:#3C3C3C ;
+}
+#stud p a:hover {
+   color:#3C3C3C ;
+}
+div {
+    width: 280px;
+    height: 100px;
+    
+    /* For Safari 3.1 to 6.0 */
+    -webkit-transition-property: width;
+    -webkit-transition-duration: 0.1s;
+    -webkit-transition-timing-function: linear;
+    
+    /* Standard syntax */
+    transition-property: width;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    
+}
+
+#admin:hover {
+    width: 330px;
+}
+#principal:hover {
+    width: 330px;
+}
+#hod:hover {
+    width: 330px;
+}
+#teach:hover {
+    width: 330px;
+}
+#stud:hover {
+    width: 330px;
+}
+body{
+	background-color: #e3e0cf;
+}
+ul{margin-top: 25px;
+     opacity: 0.9;
+    filter: alpha(opacity=100);
+	list-style-type: none;
+	float:left;
+	
+}
+ul:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=40);
+}
+.im{
+	margin-top: 40px;
+	width: 350px;
+	z-index: 9999;
+	height: 100px;
+}
+#imga{
+
+	width: 150px;
+	height: 100px;
+	margin-left: 70%;
+	z-index: 99999;
+}
+.i{ 	float: left;
+	width: 300px;
+	height: 100px;
+	z-index: 99999;
+
+}
+.head{
+	margin-left: 340px;
+	 text-shadow: 2px 2px #2E2E2E;
+}
+a{ color: white;
+	text-decoration: none;
+}
+.foot{
+	font-size: 15px;
+	font-weight: 300;
+
+}
+h3{
+	font-weight: 300;
+}
